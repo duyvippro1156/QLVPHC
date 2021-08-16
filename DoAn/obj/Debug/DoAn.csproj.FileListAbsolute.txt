@@ -1,0 +1,261 @@
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\obj\Debug\DoAn.csprojAssemblyReference.cache
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\DoAn.dll.config
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\DoAn.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\DoAn.pdb
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\csc.exe
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\csc.exe.config
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\csc.rsp
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\csi.exe
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\csi.exe.config
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\csi.rsp
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Console.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.IO.Pipes.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Security.AccessControl.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Security.Claims.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\vbc.exe
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\vbc.exe.config
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\vbc.rsp
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\Antlr3.Runtime.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\EntityFramework.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\Newtonsoft.Json.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\PagedList.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\PagedList.Mvc.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Helpers.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Mvc.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Optimization.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Razor.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.WebPages.Deployment.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.WebPages.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.WebPages.Razor.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\WebGrease.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\EntityFramework.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\PagedList.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\PagedList.Mvc.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Helpers.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Mvc.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Optimization.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.Razor.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.WebPages.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.WebPages.Deployment.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\System.Web.WebPages.Razor.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\Newtonsoft.Json.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\Antlr3.Runtime.pdb
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\obj\Debug\DoAn.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\obj\Debug\DoAn.pdb
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\ModelEF.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\ModelEF.pdb
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\DoAn\bin\ModelEF.dll.config
+D:\Linh Tinh\DoAn\DoAn\bin\DoAn.dll.config
+D:\Linh Tinh\DoAn\DoAn\bin\DoAn.dll
+D:\Linh Tinh\DoAn\DoAn\bin\DoAn.pdb
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\csc.exe
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\csc.exe.config
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\csc.rsp
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\csi.exe
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\csi.exe.config
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\csi.rsp
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Console.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.IO.Pipes.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Security.AccessControl.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Security.Claims.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\vbc.exe
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\vbc.exe.config
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\vbc.rsp
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+D:\Linh Tinh\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+D:\Linh Tinh\DoAn\DoAn\bin\Antlr3.Runtime.dll
+D:\Linh Tinh\DoAn\DoAn\bin\EntityFramework.dll
+D:\Linh Tinh\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+D:\Linh Tinh\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Linh Tinh\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+D:\Linh Tinh\DoAn\DoAn\bin\ModelEF.dll
+D:\Linh Tinh\DoAn\DoAn\bin\Newtonsoft.Json.dll
+D:\Linh Tinh\DoAn\DoAn\bin\PagedList.dll
+D:\Linh Tinh\DoAn\DoAn\bin\PagedList.Mvc.dll
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Helpers.dll
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Mvc.dll
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Optimization.dll
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Razor.dll
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.WebPages.Deployment.dll
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.WebPages.dll
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.WebPages.Razor.dll
+D:\Linh Tinh\DoAn\DoAn\bin\WebGrease.dll
+D:\Linh Tinh\DoAn\DoAn\bin\ModelEF.pdb
+D:\Linh Tinh\DoAn\DoAn\bin\ModelEF.dll.config
+D:\Linh Tinh\DoAn\DoAn\bin\EntityFramework.xml
+D:\Linh Tinh\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+D:\Linh Tinh\DoAn\DoAn\bin\PagedList.xml
+D:\Linh Tinh\DoAn\DoAn\bin\PagedList.Mvc.xml
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Helpers.xml
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Mvc.xml
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Optimization.xml
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.Razor.xml
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.WebPages.xml
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.WebPages.Deployment.xml
+D:\Linh Tinh\DoAn\DoAn\bin\System.Web.WebPages.Razor.xml
+D:\Linh Tinh\DoAn\DoAn\bin\Newtonsoft.Json.xml
+D:\Linh Tinh\DoAn\DoAn\bin\Antlr3.Runtime.pdb
+D:\Linh Tinh\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Linh Tinh\DoAn\DoAn\obj\Debug\DoAn.csprojAssemblyReference.cache
+D:\Linh Tinh\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+D:\Linh Tinh\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+D:\Linh Tinh\DoAn\DoAn\obj\Debug\DoAn.dll
+D:\Linh Tinh\DoAn\DoAn\obj\Debug\DoAn.pdb
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\DoAn.dll.config
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\DoAn.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\DoAn.pdb
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\csc.exe
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\csc.exe.config
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\csc.rsp
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\csi.exe
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\csi.exe.config
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\csi.rsp
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Console.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.IO.Pipes.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Security.Claims.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\vbc.exe
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\vbc.exe.config
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\vbc.rsp
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\Antlr3.Runtime.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\EntityFramework.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\ModelEF.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\Newtonsoft.Json.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\PagedList.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\PagedList.Mvc.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Helpers.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Mvc.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Optimization.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Razor.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.WebPages.Deployment.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.WebPages.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.WebPages.Razor.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\WebGrease.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\ModelEF.pdb
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\ModelEF.dll.config
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\EntityFramework.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\PagedList.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\PagedList.Mvc.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Helpers.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Mvc.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Optimization.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.Razor.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.WebPages.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.WebPages.Deployment.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\System.Web.WebPages.Razor.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\Newtonsoft.Json.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\Antlr3.Runtime.pdb
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\obj\Debug\DoAn.csprojAssemblyReference.cache
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\obj\Debug\DoAn.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\DoAn\obj\Debug\DoAn.pdb

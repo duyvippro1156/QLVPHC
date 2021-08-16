@@ -1,0 +1,48 @@
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\ModelEF.dll.config
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\ModelEF.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\ModelEF.pdb
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\EntityFramework.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\EntityFramework.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\obj\Debug\ModelEF.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\obj\Debug\ModelEF.pdb
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\PagedList.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\PagedList.Mvc.dll
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\PagedList.xml
+E:\Đại học\năm ba\kì 220\Đồ án 1\DoAn\ModelEF\bin\Debug\PagedList.Mvc.xml
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\ModelEF.dll.config
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\ModelEF.dll
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\ModelEF.pdb
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\EntityFramework.dll
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\PagedList.dll
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\PagedList.Mvc.dll
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\EntityFramework.xml
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\PagedList.xml
+D:\Linh Tinh\DoAn\ModelEF\bin\Debug\PagedList.Mvc.xml
+D:\Linh Tinh\DoAn\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
+D:\Linh Tinh\DoAn\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+D:\Linh Tinh\DoAn\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+D:\Linh Tinh\DoAn\ModelEF\obj\Debug\ModelEF.dll
+D:\Linh Tinh\DoAn\ModelEF\obj\Debug\ModelEF.pdb
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\ModelEF.dll.config
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\ModelEF.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\ModelEF.pdb
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\EntityFramework.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\PagedList.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\PagedList.Mvc.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\EntityFramework.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\PagedList.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\bin\Debug\PagedList.Mvc.xml
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\obj\Debug\ModelEF.dll
+C:\Users\XUANDUY\Downloads\Compressed\DoAn2\DoAn\ModelEF\obj\Debug\ModelEF.pdb

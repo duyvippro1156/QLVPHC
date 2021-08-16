@@ -1,0 +1,130 @@
+﻿@model PagedList.IPagedList<ModelEF.Model.ThongTinBienBan>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "BienBanTheoBienSoXe";
+    Layout = "~/Areas/Client/Views/Shared/_LayoutShop.cshtml";
+}
+@{
+    ModelEF.Model.QLVPHC db = new ModelEF.Model.QLVPHC(); }
+
+<div id="demo-1" style="background-image:url(https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/234295906_394610222001932_5469008934037545260_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=kbvtwllyx84AX9FngaI&_nc_ht=scontent.fdad2-1.fna&oh=338282030c4d90991fab58f05521912c&oe=613D813A)">
+    <div class="demo-inner-content">
+        <div class="header-top">
+            <header>
+                <div class="top-head ml-lg-auto text-center">
+                    <div class="row" style="right:0">
+
+                        <div class="col-md-3 sign-btn" style="background-color:#0094ff;padding:5px 10px;border-radius:40px">
+                            <a href="@Url.Action("Login", "Account")">
+                                <i class="fas fa-lock"></i> Login
+                            </a>
+                        </div>
+                        <div class="search col-md-2">
+                            <div class="mobile-nav-button">
+                                <button id="trigger-overlay" type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                            <!-- open/close -->
+                            <div class="overlay overlay-door">
+                                <button type="button" class="overlay-close">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </button>
+                                <form action="#" method="post" class="d-flex">
+                                    <input class="form-control" type="search" placeholder="Search here..." required="">
+                                    <button type="submit" class="btn btn-primary submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <!-- open/close -->
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+
+                    </button>
+
+
+                </nav>
+            </header>
+        </div>
+        <!--/banner-info-w3layouts-->
+        <div class="banner-info-w3layouts text-center">
+
+            <h3>
+                <span>HỆ THỐNG TRA CỨU THÔNG TIN VI PHẠM HÀNH CHÍNH</span>
+                <br />
+                <span>CỦA Ô TÔ, XE MÁY</span>
+            </h3>
+            <p>Thành phố Đà Nẵng</p>
+
+            <div class="ban-form row" style="margin-left:200px;margin-right:200px">
+                <div class="col-md-6 banf">
+                    @using (Ajax.BeginForm("BienBanTheoBienSoXe", "SanPham", new AjaxOptions { InsertionMode = InsertionMode.Replace, HttpMethod = "Get" }))
+                    {
+                        <input class="form-control" type="text" name="Name" placeholder="Nhập thông tin tìm kiếm" required="">
+                    }
+                </div>
+
+
+                <div class="col-md-3 banf">
+                    <select id="country13" class="form-control">
+                        <option>Biển số xe</option>
+                        <option>Số chứng minh nhân dân</option>
+                    </select>
+
+                </div>
+                <div class="col-md-3 banf">
+                    <button class="btn1" type="submit">
+                        Tìm kiếm
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content-top " style="background-color:#fff;margin-top:100px;padding:50px">
+                <div class="container " style="text-align:center">
+                    <div class="spec ">
+                        <h3 style="color:#000">Tìm kiếm với biển số xe @ViewBag.search</h3>
+                    </div>
+                    <div class="tab-head " style="margin-top:50px;font-size:25px;font-weight:600;vertical-align:central">
+                        <div class=" tab-content tab-content-t ">
+                            <div class="tab-pane active text-style" id="tab1">
+                                <div class=" con-w3l">
+                                    @foreach (var item in Model)
+                                    {
+                                        <div>Mã biên bản: <span>@item.maBienBan</span></div>
+                                        <div>Họ tên người vi phạm: <span>@item.NguoiViPham.hoTen</span></div>
+                                        <div>Số chứng minh nhân dân: <span>@item.soCMND</span></div>
+                                        <div>Biển số xe: <span>@item.bienSoXe</span></div>
+                                        <div>Giấy phép lái xe: <span>@item.giayPhepLaiXe</span></div>
+                                        <div>Lỗi vi phạm: <span>@item.MucPhat.tenLoi</span></div>
+                                        <div>Số tiền nộp phạt: <span>@item.MucPhat.soTienPhat VND</span></div>
+                                        <div>Địa điểm vi phạm: <span>@item.diaDiemViPham</span></div>
+                                        <div>Ngày vi phạm: <span>@item.ngayViPham</span></div>
+                                        <div>Thanh tra xử lí: <span>@item.NhanVien.hoTen</span></div>
+                                        <div>Tang vật tạm giữ: <span>@item.tangVatTamGiu</span></div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//banner-info-w3layouts-->
+    </div>
+</div>
+
+<style>
+    .con-w3l span {
+        color: #ff6a00;
+    }
+</style>

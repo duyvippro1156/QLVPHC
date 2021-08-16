@@ -1,0 +1,100 @@
+﻿@model ModelEF.Model.ThongTinBienBan
+
+@{
+    ViewBag.Title = "Chi tiết biên bản";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết biên bản</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã biên bản:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.maBienBan)
+        </dd>
+
+        <dt>
+            Người vi phạm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NguoiViPham.hoTen)
+        </dd>
+
+        <dt>
+            Chứng minh nhân dân:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soCMND)
+        </dd>
+
+        <dt>
+            Biên số xe:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bienSoXe)
+        </dd>
+
+        <dt>
+            Giấy phép lái xe:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.giayPhepLaiXe)
+        </dd>
+
+        <dt>
+            Tên lỗi:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MucPhat.tenLoi)
+        </dd>
+
+        <dt>
+            Địa điểm vi phạm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.diaDiemViPham)
+        </dd>
+
+        <dt>
+            Ngày vi phạm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngayViPham)
+        </dd>
+
+        <dt>
+            Thanh tra xử lí:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhanVien.hoTen)
+        </dd>
+
+        <dt>
+            Tang vật tạm giữ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tangVatTamGiu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Xác nhận biên lai", "Edit", "BienLai", new { id = Model.maBienBan }, new { @class = "btn btn-primary" })*@
+    <a href="@Url.Action("XacNhan", "BienBan", new { id = Model.maBienBan })"><i class="fa fa-check"> </i>Xác nhận Biên Lai</a> |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.maBienBan }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

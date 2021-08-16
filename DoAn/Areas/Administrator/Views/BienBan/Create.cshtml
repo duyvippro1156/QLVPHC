@@ -1,0 +1,97 @@
+﻿@model ModelEF.Model.ThongTinBienBan
+
+@{
+    ViewBag.Title = "Tạo Biên Bản";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tạo sản phẩm mới</h2>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="~/Areas/Administrator/css/froala_editor.css">
+<link rel="stylesheet" href="~/Areas/Administrator/css/froala_style.css">
+<link rel="stylesheet" href="~/Areas/Administrator/css/plugins/code_view.css">
+<link rel="stylesheet" href="~/Areas/Administrator/css/plugins/image_manager.css">
+<link rel="stylesheet" href="~/Areas/Administrator/css/plugins/image.css">
+<link rel="stylesheet" href="~/Areas/Administrator/css/plugins/table.css">
+<link rel="stylesheet" href="~/Areas/Administrator/css/plugins/video.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">
+
+
+
+
+
+
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "BienBan")
+</div>
+@using (Html.BeginForm("Create", "BienBan", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="text-success">
+            @ViewBag.CreateProError
+        </div>
+        <div class="form-group col-lg-5">
+            <label>Mã biên bản</label>
+            @Html.EditorFor(model => model.maBienBan, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập mã biên bản" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.maBienBan)</div>
+            <label>Người vi phạm</label>
+            @Html.DropDownListFor(model => model.soCMND, ViewBag.nvpListCreate as SelectList, new { @class = "form-control" })
+            <label>Biển số xe</label>
+            @Html.EditorFor(model => model.bienSoXe, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập biển số xe" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.bienSoXe)</div>
+            <label>Giấy phép lái xe</label>
+            @Html.EditorFor(model => model.giayPhepLaiXe, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập giấy phép lái xe" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.giayPhepLaiXe)</div>
+            <label>Lỗi vi phạm</label>
+            @Html.DropDownListFor(model => model.maLoiViPham, ViewBag.typeListCreate as SelectList, new { @class = "form-control" })
+            <label>Địa điểm vi phạm</label>
+            @Html.EditorFor(model => model.diaDiemViPham, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập địa điểm vi phạm" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.diaDiemViPham)</div>
+            <label>Thanh tra</label>
+            @Html.DropDownListFor(model => model.maThanhTra, ViewBag.pdcListCreate as SelectList, new { @class = "form-control" })
+            <label>Tang vật tạm giữ</label>
+            @Html.EditorFor(model => model.tangVatTamGiu, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập tang vật tạm giữ" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.tangVatTamGiu)</div>
+
+            <br />
+            <input type="submit" value="Tạo mới" class="btn btn-default" />
+        </div>
+    </div>
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/froala_editor.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/align.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/code_beautifier.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/code_view.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/draggable.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/image.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/image_manager.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/link.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/lists.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/paragraph_format.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/paragraph_style.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/table.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/video.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/url.min.js"></script>
+<script type="text/javascript" src="~/Areas/Administrator/js/plugins/entities.min.js"></script>
+
+<script>
+    new FroalaEditor('#edit')
+</script>

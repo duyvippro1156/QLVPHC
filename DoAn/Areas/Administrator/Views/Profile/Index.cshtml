@@ -1,0 +1,84 @@
+﻿@model ModelEF.Model.NhanVien
+
+@{ ViewBag.Title = "Thông tin cá nhân";
+                Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml"; }
+
+<h2>Thông tin cá nhân </h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã số:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.maSo)
+        </dd>
+        <dt>
+            Họ tên:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.hoTen)
+        </dd>
+        <dt>
+            Giới tính:
+        </dt>
+        @if (Model.gioiTinh == false)
+        {
+            <dd>Nữ</dd>
+        }
+        else
+        {
+            <dd>Nam</dd>}  
+        @*<dd>
+            @Html.DisplayFor(model => model.gioiTinh)
+        </dd>*@
+
+        <dt>
+            Ngày sinh:
+        </dt>
+        <dd>
+            @Convert.ToDateTime(Model.ngaySinh).ToString("dd/MM/yyyy")
+        </dd>
+        <dt>
+            Chứng minh nhân dân:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.soCMND)
+        </dd>
+        <dt>
+            Sô điện thoại:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.soDienThoai)
+        </dd>
+        <dt>
+            Email:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt>
+            Đơn vị:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.donVi)
+        </dd>
+        <dt>
+            Địa chỉ:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.diaChi)
+        </dd>
+        <dt>
+            Tài khoản:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.taiKhoan)
+        </dd>
+    </dl>
+</div>
+<p>
+    @*<a href="@Url.Action("Edit", "NhanVien", new { id = Model.maSo })">Edit</a>*@
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.maSo })*@
+</p>

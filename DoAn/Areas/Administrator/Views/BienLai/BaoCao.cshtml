@@ -1,0 +1,42 @@
+﻿@model ModelEF.Model.TTBienLai
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Biên lai thu tiền</title>
+    <link rel="stylesheet" href="~/Areas/Administrator/Content/style.css" media="all" />
+</head>
+<body style="max-height:960px">
+    <header class="clearfix">
+        <div id="logo">
+            <h1 style="font-size:35px;">BIÊN LAI NỘP PHẠT</h1>
+        </div>
+        <div id="company">
+            <h2 class="name">QUẢN LÍ XỬ LÍ VI PHẠM THÀNH PHỐ ĐÀ NẴNG</h2>
+            <div>48 Cao Thắng, P.Thanh Bình, Q.Hải Châu, TP.Đà Nẵng</div>
+            <div>0772512251</div>
+            <div><a href="mailto:maiduybigbang@gmail.com">maiduybigbang@gmail.com</a></div>
+        </div>
+    </header>
+    <main>
+        <div id="details" class="clearfix">
+            <div id="client">
+                <div class="name">Mã biên lai: @Model.maBienLai</div>
+                <div>Tên người vi phạm: @Model.ThongTinBienBan.NguoiViPham.hoTen</div>
+                <div class="address">Mã biên bản: @Model.maBienBan</div>
+                <div class="fa-phone">Tên lỗi vi phạm: @Model.ThongTinBienBan.MucPhat.tenLoi</div>
+                <div>Tình trạng nộp phạt: @Model.ThongTinBienBan.MucPhat.soTienPhat VND</div>
+            </div>
+            <div id="invoice">
+                <div class="date">Ngày nộp phạt: @Convert.ToDateTime(Model.ngayXuat).ToString("dd/MM/yyyy")</div>
+                <div class="date">Ngày giao: @Model.tinhTrangNopPhat</div>
+            </div>
+        </div>
+
+        <div id="thanks">Cảm ơn bạn đã mua hàng!</div>
+    </main>
+    <footer>
+        Biên lai được tạo trên máy tính và hợp lệ mà không cần chữ ký và đóng dấu.
+    </footer>
+</body>
+</html>

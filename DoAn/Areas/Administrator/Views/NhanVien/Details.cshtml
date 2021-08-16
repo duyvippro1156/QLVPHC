@@ -1,0 +1,80 @@
+﻿@model ModelEF.Model.NhanVien
+
+@{ ViewBag.Title = "Chi tiết nhân viên";
+                Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml"; }
+
+<h2>Chi tiết nhân viên </h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã số:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.maSo)
+        </dd>
+        <dt>
+            Họ tên:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.hoTen)
+        </dd>
+        <dt>
+            Giới tính:
+        </dt>
+        @if (Model.gioiTinh == false)
+        {
+            <dd>Nữ</dd>
+        }
+        else
+        {
+            <dd>Nam</dd>}      
+        <dt>
+            Ngày sinh:
+        </dt>
+        <dd>
+            @Convert.ToDateTime(Model.ngaySinh).ToString("dd/MM/yyyy")
+        </dd>
+        <dt>
+            Chứng minh nhân dân:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.soCMND)
+        </dd>
+        <dt>
+            Sô điện thoại:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.soDienThoai)
+        </dd>
+        <dt>
+            Email:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt>
+            Đơn vị:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.donVi)
+        </dd>
+        <dt>
+            Địa chỉ:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.diaChi)
+        </dd>
+        <dt>
+            Tài khoản:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.taiKhoan)
+        </dd>
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.maSo}) |*@
+    @Html.ActionLink("Back to List", "Index")
+</p>

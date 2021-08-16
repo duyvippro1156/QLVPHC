@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ModelEF.Model.NguoiViPham>
+@using PagedList.Mvc
+@using PagedList
+@{
+    ViewBag.Title = "Người Vi Phạm";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Người vi phạm</h2>
+<div class="text-warning">
+    @ViewBag.TypeError
+</div>
+<hr />
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="btn btn-primary btn-default" href="@Url.Action("Create", "NguoiViPham")" role="button"><i class="fa fa-plus-circle"></i> Tạo người vi phạm mới</a>
+            <div class="form-group input-group navbar-right">
+                @using (Ajax.BeginForm("Index", "NguoiViPham", new AjaxOptions { InsertionMode = InsertionMode.Replace, HttpMethod = "Get" }))
+                {
+                    <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control" style="width:300px" placeholder="Nhập thông tin tìm kiếm" />
+                    <button class="btn btn-success" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                }
+            </div>
+        </div>
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <div class="table-responsive table-bordered">
+                <table class="table">
+                    <thead>
+                        <tr style="background-color:#eeeeee">
+                            <th>Số CMND</th>
+                            <th>Họ tên</th>
+                            <th>Giới tính</th>
+                            <th>Ngày sinh</th>
+                            <th>Số điện thoại</th>
+                            <th>Địa chỉ</th>
+                            <th>Quốc tịch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.soCMND)</td>
+                                <td>@Html.DisplayFor(modelItem => item.hoTen)</td>
+                                @if (item.gioiTinh == false)
+                                {
+                                    <td>Nữ</td>
+                                }
+                                else
+                                {
+                                    <td>Nam</td>}
+                                <td>@Convert.ToDateTime(item.ngaySinh).ToString("dd/MM/yyyy")</td>
+                                <td>@Html.DisplayFor(modelItem => item.soDienThoai)</td>
+                                <td>@Html.DisplayFor(modelItem => item.diaChi)</td>
+                                <td>@Html.DisplayFor(modelItem => item.quocTich)</td>
+                                <td>
+                                    <a href="@Url.Action("Edit", "NguoiViPham", new { cmnd = item.soCMND })"><i class="fa fa-pencil fa-fw"></i></a>|
+                                    <a onclick="return confirm('Bạn có chắc chắn muốn xoá người vi phạm  này?')" href="@Url.Action("Delete", "NguoiViPham", new { cmnd = item.soCMND })"><i class="fa fa-times fa-fw"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.table-responsive -->
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, @seachString = @ViewBag.SearchString }))
+</div>

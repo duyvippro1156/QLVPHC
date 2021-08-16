@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ModelEF.Model.TTBienLai>
+@using PagedList.Mvc
+@using PagedList
+@{ ViewBag.Title = "Thông tin biên lai";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml"; }
+<h2>Thông tin biên lai</h2>
+<div class="text-warning">
+    @ViewBag.ProError
+</div>
+<hr />
+<div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="form-group input-group navbar-right">
+                @using (Ajax.BeginForm("Index", "BienLai", new AjaxOptions { InsertionMode = InsertionMode.Replace, HttpMethod = "Get" }))
+                {
+                    <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control" style="width:300px" placeholder="Nhập thông tin tìm kiếm" />
+                    <button class="btn btn-success" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                }
+            </div>
+        </div>
+        <div class="panel-body" style="width:100%;height:500px;overflow:auto;">
+            <div class="table-responsive table-bordered">
+                <table class="table">
+                    <thead>
+                        <tr style="background-color:#eeeeee">
+                            <th>Mã biên lai</th>
+                            <th>Ngày xuất</th>
+                            <th>Lỗi vi phạm</th>
+                            <th>Mã biên bản</th>
+                            <th>Tình trạng nộp phạt</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.maBienLai)</td>
+                                <td>@Convert.ToDateTime(item.ngayXuat).ToString("dd/MM/yyyy")</td>
+                                <td>@Html.DisplayFor(modelItem => item.ThongTinBienBan.MucPhat.tenLoi)</td>
+                                <td>@Html.DisplayFor(modelItem => item.maBienBan)</td>
+                                <td>@Html.DisplayFor(modelItem => item.tinhTrangNopPhat)</td>
+                                <td>                                
+                                    @Html.ActionLink("In biên lai", "BaoCao", "BienLai", new { id = item.maBienLai }, new { @class = "btn btn-primary" })
+                                    <a onclick="return confirm('Bạn có chắc chắn muốn xoá biên lai này?')" href="@Url.Action("Delete", "BienLai", new { id = item.maBienLai })"><i class="fa fa-times fa-fw"></i></a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.table-responsive -->
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, @seachString = @ViewBag.SearchString }))
+    <!-- /.panel -->
+</div>

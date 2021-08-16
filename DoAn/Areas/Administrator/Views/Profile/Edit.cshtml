@@ -1,0 +1,61 @@
+﻿@model ModelEF.Model.NhanVien
+@{ ViewBag.Title = "Cập nhật Thông tin cá nhân";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml"; }
+
+<h2>Cập nhật Thông tin Cá Nhân</h2>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+
+
+
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "Home")
+</div>
+@using (Html.BeginForm("Edit", "Profile", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.maSo)
+        <div class="text-success">
+            @ViewBag.EditProError
+        </div>
+        <div class="form-group col-lg-5">
+            <label>Họ tên</label>
+            @Html.EditorFor(model => model.hoTen, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập họ tên" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.hoTen)</div>
+
+            <label>Giới tính</label>
+            @Html.DropDownListFor(model => model.gioiTinh,new List<SelectListItem>{new SelectListItem{ Text="Nam", Value="true"},
+                                                           new SelectListItem{ Text="Nữ", Value="false"}}, "--- Giới tính ---", new { @class = "form-control"} )
+            <label>Ngày sinh</label>
+            @Html.TextBoxFor(model => model.ngaySinh, "{0:yyyy-MM-dd}", new { type = "date", @class = "form-control" })
+
+            <label>Số chứng minh nhân dân</label>
+            @Html.EditorFor(model => model.soCMND, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập sô chứng minh nhân dân" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.soCMND)</div>
+            <label>Số điện thoại</label>
+            @Html.EditorFor(model => model.soDienThoai, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập sô điên thoại" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.soDienThoai)</div>
+            <label>Email</label>
+            @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập email" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.email)</div>
+            <label>Đơn vị</label>
+            @Html.EditorFor(model => model.donVi, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập đơn vị công tác" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.donVi)</div>
+            <label>Địa chỉ</label>
+            @Html.EditorFor(model => model.diaChi, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập địa chỉ" } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.diaChi)</div>
+            <br />
+            <input type="submit" value="Cập nhật" class="btn btn-default" />
+        </div>
+    </div>}
+
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
